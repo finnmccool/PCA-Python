@@ -1,0 +1,5 @@
+Python Version:3.8.5 (default, Sep  4 2020, 07:30:14) 
+[GCC 7.3.0]
+Numpy Verion:1.20.1
+Pandas Version:1.2.4
+Seaborn Version:0.11.1
