@@ -2,10 +2,11 @@
 h1 {
   border: 1.5px solid #333;
   padding: 40px 12px;
-  background-image: linear-gradient(90deg, #4d94ff, #002966);
+  background-image: linear-gradient(90deg, #4d94ff, #003d99);
   font-family: "Arial";  
   text-align: center;
   position: static;
+  border-radius: 12px;
   color: white;
 }
 </style>
@@ -14,8 +15,9 @@ h1 {
 h2 {
   border: 1.5px solid #333;
   padding: 6px 12px;
-  background-image: linear-gradient(90deg, #3385ff, #003d99);
-  font-family: "Arial"; 
+  background-image: linear-gradient(90deg, #3385ff, #ccffcc);
+  font-family: "Arial";
+    border-radius: 5px;
   color: white;
 }
 </style>
@@ -24,8 +26,9 @@ h2 {
 h3 {
   border: 1.5px solid #333;
   padding: 4px 12px;
-  background-image: linear-gradient(90deg, #3385ff, #003d99);
-  font-family: "Arial"; 
+  background-image: linear-gradient(90deg, #3385ff, #ccffcc);
+  font-family: "Arial";
+    border-radius: 5px;
   color: white;
 }
 </style>
@@ -34,9 +37,10 @@ h3 {
 h4 {
   border: 1.5px solid #333;
   padding: 4px 12px;
-  background-image: linear-gradient(90deg, #3385ff, #003d99);
+  background-image: linear-gradient(90deg, #3385ff, #ccffcc);
   font-family: "Arial";
   font-size: 8;
+  border-radius: 5px;
   color: white;
 }
 </style>
@@ -44,7 +48,7 @@ h4 {
 
 <style>
 p {
-  background-color: #4d94ff;
+  background-color: #e1eae1;
   padding: 4px 12px;
   font-family: "Arial"; 
   font-size: 12;
@@ -58,5 +62,101 @@ ul {
   font-family: "Arial"; 
   font-size: 12;
   color: #7575a3;
+}
+</style>
+
+<style>
+.intro {
+  background-color: #50E3C2;
+  background-image: 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%),  
+        radial-gradient(at 47% 33%, hsl(180.00, 100%, 90%) 0, transparent 59%); 
+  padding: 4px 12px;
+  font-family: "Arial"; 
+  font-size: 12;
+  border-radius: 15px;
+  color: black;
+}
+</style>
+
+
+<style>
+.card {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.69);
+    border-radius: 15px;
+    border: 3px solid rgba(209, 213, 219, 0.3);
+}
+</style>
+
+
+<style>
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.dataframe {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.dataframe tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.dataframe th {
+  display: none;
+}
+.dataframe td {
+  display: block;
+}
+.dataframe td:first-child {
+  padding-top: .5em;
+}
+.dataframe td:last-child {
+  padding-bottom: .5em;
+}
+.dataframe td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .dataframe td:before {
+    display: none;
+  }
+}
+.dataframe th, .dataframe td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .dataframe th, .dataframe td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .dataframe th:first-child, .dataframe td:first-child {
+    padding-left: 0;
+  }
+  .dataframe th:last-child, .dataframe td:last-child {
+    padding-right: 0;
+  }
+}
+.dataframe {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.dataframe tr {
+  border-color: #46637f;
+}
+.dataframe th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .dataframe th, .dataframe td {
+    padding: 1em !important;
+  }
+}
+.dataframe th, .dataframe td:before {
+  color: #dd5;
 }
 </style>
